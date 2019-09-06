@@ -1,0 +1,56 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "_surveyId",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "name": "_hash",
+        "type": "string"
+      }
+    ],
+    "name": "LogSurveyRegistered",
+    "type": "event"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_surveyId",
+        "type": "string"
+      },
+      {
+        "name": "_hash",
+        "type": "string"
+      }
+    ],
+    "name": "RegisterSurvey",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_surveyId",
+        "type": "string"
+      }
+    ],
+    "name": "ReturnHash",
+    "outputs": [
+      {
+        "name": "_hash",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
