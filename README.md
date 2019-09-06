@@ -1,7 +1,5 @@
 # Workers Rights API -- MVP v1.0
-Poor labor conditions, including low wages, unpaid overtime, and abusive employee management environments have all contributed to a systemic pattern of labor violations across the textile industry. However, a growing number of companies are dedicating themselves resolving factory worker issues by developing widespread and deeply impactful wellness programs for their contracted factory workers. Major retailers can employ over 140K factory workers and have more than 70 factories within their production effort, and they have historically strived toward holistic employee health and wellness.
-
-The following repository seeks to provide an open source solution that can be appended to ongoing worker wellness surveying and grievance collection efforts facilitated at a manufacturing factories. The solution will need to accomplish the following:
+The following repository seeks to provide an open source solution that can be appended to ongoing worker wellness surveying efforts facilitated at manufacturing factories. The solution will need to accomplish the following:
 
 1. Anonymization of survey responses: Employees’ identity and privacy will be protected.
 2. Immutable Reporting: Self-reported employee data will be secure and free from external manipulation.
@@ -9,7 +7,7 @@ The following repository seeks to provide an open source solution that can be ap
 4. Scalability: The solution will be designed in such a way that it can be scaled quickly beyond the retailer supply chain, making it possible for the survey to establish itself as a universal benchmark and communicate how businesses impact their employees’ well-being.
 
 ## Repository Breakdown
-In this implementation, the survey will need to leverage the Qualtrics platform, which provides for a Python and JAVA programming interfaces within their new survey response export API, and additionally provides support for R and NodeJS in their legacy v3 export API. The following repository, which is the MVP v1 iteration of the survey listener, will leverage the Python 3 (newest) Qualtrics API in an effort to address gaps in functionality that the newer API has yet to address.
+In this implementation, the survey will need to leverage the Qualtrics platform, which provides for Python and JAVA programming interfaces within their new survey response export API, and additionally provides support for R and NodeJS in their legacy v3 export API. The following repository, which is the MVP v1 iteration of the survey listener, will leverage the Python 3 (newest) Qualtrics API in an effort to address gaps in functionality that the newer API has yet to address.
 
 The customized API will have two parts:
 
